@@ -1,6 +1,6 @@
 import { v1 as uuidv1 } from 'uuid';
 
-import Tonguemeleon from '../assets/img/articles/tonguemeleon_0.png';
+import Tonguemeleon from '../assets/img/articles/tonguemeleon_0.svg';
 
 const Articles = [
     {
