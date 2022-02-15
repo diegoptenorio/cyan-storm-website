@@ -1,6 +1,6 @@
 {
   "private": true,
-  "homepage": "http://cyanstorm.com",
+  "homepage": "https://cyanstorm.com",
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
