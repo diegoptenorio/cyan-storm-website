@@ -11,25 +11,25 @@ const Header = () => (
         </Head>
         <header className="relative z-10">
             <nav>
-                <ul className="flex flex-row uppercase text-center text-white font-bold">
-                    <li className="grow self-center border-b border-light-blue pb-[20px] hover:border-dark-blue hover:text-cyan duration-300">
+                <ul className="flex md:flex-row flex-col mb-[20px] md:mb-0 uppercase text-center text-white font-bold">
+                    <li className="grow md:order-1 order-2 self-center border-b border-light-blue md:pb-[20px] md:my-0 my-[30px] hover:border-dark-blue hover:text-cyan duration-300">
                         <Link href="/">
                             <a>News</a>
                         </Link>
                     </li>
-                    <li className="grow self-center border-b border-light-blue pb-[20px] hover:border-dark-blue hover:text-cyan duration-300">
-                        <Link href="/About">
+                    <li className="grow md:order-2 order-3 self-center border-b border-light-blue md:pb-[20px] md:my-0 my-[30px] hover:border-dark-blue hover:text-cyan duration-300">
+                        <Link href="/about">
                             <a>About</a>
                         </Link>
                     </li>
-                    <li className="grow-0"><Image src={Logo} alt="logo" /></li>
-                    <li className="grow self-center border-b border-light-blue pb-[20px] hover:border-dark-blue hover:text-cyan duration-300">
-                        <Link href="/Releases">
+                    <li className="grow-0 md:order-3 order-1"><Image src={Logo} alt="logo" /></li>
+                    <li className="grow order-4 self-center border-b border-light-blue md:pb-[20px] md:my-0 my-[30px] hover:border-dark-blue hover:text-cyan duration-300">
+                        <Link href="/releases">
                             <a>Releases</a>
                         </Link>
                     </li>
-                    <li className="grow self-center border-b border-light-blue pb-[20px] hover:border-dark-blue hover:text-cyan duration-300">
-                        <Link href="/Contact">
+                    <li className="grow order-5 self-center border-b border-light-blue md:pb-[20px] md:my-0 my-[30px] hover:border-dark-blue hover:text-cyan duration-300">
+                        <Link href="/contact">
                             <a>Contact</a>
                         </Link>
                     </li>

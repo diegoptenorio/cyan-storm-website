@@ -4,9 +4,9 @@ import Footer from '../components/Footer';
 
 import 'tailwindcss/tailwind.css'
 
-import { news } from '../content';
+import { releases } from '../content';
 
-const Home = () => (
+const Releases = () => (
   <>
     <div className="h-[12px] bg-light-blue w-full -mb-[12px]"></div>
     <div className="h-[200vh] w-[100vw] -z-10 fixed -translate-y-[100vh] bg-gradient-radial from-gradient-light-blue via-gradient-dark-blue to-gradient-dark-blue"></div>
@@ -14,14 +14,13 @@ const Home = () => (
       <Header />
     </div>
     <div className="max-w-screen-lg z-10 left-0 right-0	mx-auto">
-      {news.map((article) => 
+      {releases.map((article) => 
         <Article
           key={article.id}
           image={article.image}
           title={article.title}
-        >
-          {article.text}
-        </Article>
+          text={article.text}
+        />
       )}
     </div>
     <div className="z-10 w-full">
@@ -30,4 +29,4 @@ const Home = () => (
   </>
 );
 
-export default Home;
+export default Releases;

@@ -1,15 +1,17 @@
 import Image from 'next/image';
 
-const Article = ({ image, title, text}) => (
-    <article className='bg-white z-0 relative -mt-[30px] border-y-[6px] border-t-cyan border-b-white rounded-lg'>
-        <Image src={image} />
-        <div className="bg-white w-fit mx-auto pt-[30px] px-[40px]">
-            <h1 className="font-bold text-[28px]">{title}</h1>
-        </div>
-        <div className="pb-[80px] pt-[30px] px-[100px]">
-            <p className="text-[20px] text-grey">{text}</p>
-        </div>
-    </article>
-);
+const Article = props => {
+    const { children, image, title } = props;
+
+    return (
+        <article className="bg-white z-0 relative md:-mt-[30px] mb-[50px] border-y-[6px] border-t-cyan border-b-white rounded-lg">
+            {image && <Image src={image} className="min-h-screen" />}
+            <div className="pb-[80px] pt-[30px] md:px-[100px] px-[25px]">
+                <h1 className="font-bold text-[28px] text-center pb-[30px]">{title}</h1>
+                <p className="text-[20px] text-grey">{children}</p>
+            </div>
+        </article>
+    )
+};
 
 export default Article;
