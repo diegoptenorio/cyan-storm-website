@@ -1,7 +1,6 @@
 import Head from "next/head"
 import Link from 'next/link'
 
-import Image from 'next/image';
 import Logo from '../../assets/img/logo.svg';
 
 const Header = () => (
@@ -22,7 +21,7 @@ const Header = () => (
                             <a>About</a>
                         </Link>
                     </li>
-                    <li className="grow-0 md:order-3 order-1"><Image src={Logo} alt="logo" /></li>
+                    <li className="grow-0 md:order-3 order-1"><img src={Logo} alt="logo" /></li>
                     <li className="grow order-4 self-center border-b border-light-blue md:pb-[20px] md:my-0 my-[30px] hover:border-dark-blue hover:text-cyan duration-300">
                         <Link href="/releases">
                             <a>Releases</a>
