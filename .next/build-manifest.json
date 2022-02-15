@@ -1,0 +1,66 @@
+{
+  "polyfillFiles": [
+    "static/chunks/polyfills-5cd94c89d3acac5f.js"
+  ],
+  "devFiles": [],
+  "ampDevFiles": [],
+  "lowPriorityFiles": [
+    "static/y8zbirytTEJ3gy7Q8vV2C/_buildManifest.js",
+    "static/y8zbirytTEJ3gy7Q8vV2C/_ssgManifest.js",
+    "static/y8zbirytTEJ3gy7Q8vV2C/_middlewareManifest.js"
+  ],
+  "pages": {
+    "/": [
+      "static/chunks/webpack-69bfa6990bb9e155.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-83803dd478f5b5bc.js",
+      "static/chunks/967-d414c174deef9df2.js",
+      "static/css/8991b249eb8d78c8.css",
+      "static/chunks/pages/index-8dfad9af4f4fec2a.js"
+    ],
+    "/_app": [
+      "static/chunks/webpack-69bfa6990bb9e155.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-83803dd478f5b5bc.js",
+      "static/chunks/pages/_app-ba0d1cdf43a37972.js"
+    ],
+    "/_error": [
+      "static/chunks/webpack-69bfa6990bb9e155.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-83803dd478f5b5bc.js",
+      "static/chunks/pages/_error-6679c1efb053c50e.js"
+    ],
+    "/about": [
+      "static/chunks/webpack-69bfa6990bb9e155.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-83803dd478f5b5bc.js",
+      "static/chunks/967-d414c174deef9df2.js",
+      "static/css/8991b249eb8d78c8.css",
+      "static/chunks/pages/about-933cde25075e4105.js"
+    ],
+    "/contact": [
+      "static/chunks/webpack-69bfa6990bb9e155.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-83803dd478f5b5bc.js",
+      "static/chunks/967-d414c174deef9df2.js",
+      "static/css/8991b249eb8d78c8.css",
+      "static/chunks/pages/contact-3e2ca5879ab95ae1.js"
+    ],
+    "/releases": [
+      "static/chunks/webpack-69bfa6990bb9e155.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-83803dd478f5b5bc.js",
+      "static/chunks/967-d414c174deef9df2.js",
+      "static/css/8991b249eb8d78c8.css",
+      "static/chunks/pages/releases-ffd287c9218f3e50.js"
+    ],
+    "/tonguemeleon/privacy": [
+      "static/chunks/webpack-69bfa6990bb9e155.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-83803dd478f5b5bc.js",
+      "static/css/8991b249eb8d78c8.css",
+      "static/chunks/pages/tonguemeleon/privacy-5f8cf8e73a101655.js"
+    ]
+  },
+  "ampFirstPages": []
+}
