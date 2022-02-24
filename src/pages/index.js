@@ -2,8 +2,6 @@ import Header from '../components/Header';
 import Article from '../components/Article';
 import Footer from '../components/Footer';
 
-import 'tailwindcss/tailwind.css'
-
 import { news } from '../content';
 
 const Home = () => (

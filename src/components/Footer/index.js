@@ -6,9 +6,9 @@ const Footer = () => (
     <footer>
         <nav className='bg-white py-[40px]'>
             <ul className='flex flex-row justify-evenly max-w-screen-lg left-0 right-0	mx-auto'>
-                <li><a href="" target="_blank"><img src={Facebook} /></a></li>
-                <li><a href="" target="_blank"><img src={Instagram} /></a></li>
-                <li><a href="" target="_blank"><img src={Youtube} /></a></li>
+                <li><img src={Facebook} alt="Facebook page" /></li>
+                <li><img src={Instagram} alt="Instagram page" /></li>
+                <li><img src={Youtube} alt="Youtube page" /></li>
             </ul>
         </nav>
         <div className="text-white text-[15px] flex md:flex-row flex-col justify-between py-[30px] max-w-screen-lg left-0 right-0	mx-auto">
